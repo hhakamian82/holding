@@ -1,26 +1,103 @@
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f2fcf5;
+  --foreground: #19492e;
+
+  /* Palm Grove Palette */
+  --color-palm-50: #f2fcf5;
+  --color-palm-100: #e1f8e8;
+  --color-palm-200: #c3eed0;
+  --color-palm-300: #94e0ad;
+  --color-palm-400: #5ac982;
+  --color-palm-500: #34ae63;
+  --color-palm-600: #258c4c;
+  --color-palm-700: #206f3f;
+  --color-palm-800: #1e5836;
+  --color-palm-900: #19492e;
+  --color-palm-950: #0b2818;
+
+  --color-earth-100: #f5f0e6;
+  --color-earth-200: #e6dcc8;
+  --color-earth-500: #a68a64;
+  --color-earth-800: #5e4b35;
+
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+
+  --color-palm-50: var(--color-palm-50);
+  --color-palm-100: var(--color-palm-100);
+  --color-palm-200: var(--color-palm-200);
+  --color-palm-300: var(--color-palm-300);
+  --color-palm-400: var(--color-palm-400);
+  --color-palm-500: var(--color-palm-500);
+  --color-palm-600: var(--color-palm-600);
+  --color-palm-700: var(--color-palm-700);
+  --color-palm-800: var(--color-palm-800);
+  --color-palm-900: var(--color-palm-900);
+  --color-palm-950: var(--color-palm-950);
+
+  --color-earth-100: var(--color-earth-100);
+  --color-earth-200: var(--color-earth-200);
+  --color-earth-500: var(--color-earth-500);
+  --color-earth-800: var(--color-earth-800);
+
+  --color-gold-400: var(--color-gold-400);
+  --color-gold-500: var(--color-gold-500);
+  --color-gold-600: var(--color-gold-600);
+
+  --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   --font-mono: var(--font-geist-mono);
+  --font-vazir: var(--font-vazir), Tahoma, Arial, sans-serif;
+  --font-lalezar: var(--font-lalezar), 'Impact', serif;
 }
 
+/* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b2818;
+    --foreground: #e1f8e8;
   }
 }
 
+/* === TYPOGRAPHY SYSTEM === */
+
+/* Default Body Font (English) */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Farsi Support (RTL) */
+[dir="rtl"] body {
+  font-family: var(--font-vazir);
+}
+
+/* Headings in Farsi use Lalezar for impact */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6,
+[dir="rtl"] .font-display {
+  font-family: var(--font-lalezar) !important;
+  font-weight: 400 !important;
+  /* Lalezar is bold by default */
+  letter-spacing: 0px !important;
+}
+
+/* Adjust line-height for better readability in Farsi */
+[dir="rtl"] p,
+[dir="rtl"] li,
+[dir="rtl"] span {
+  line-height: 1.8;
 }

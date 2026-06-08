@@ -1,0 +1,121 @@
+{
+  "HomePage": {
+    "title": "Intelligent Architecture for a Centennial Legacy",
+    "subtitle": "We are the technology and strategy engine behind 'Mana Palm'. Your digital projects breathe life into the southern soil and pave the way for an eternal legacy.",
+    "cta": "Business Growth = Grove Revival",
+    "mission": "Aligned with Mana Palm",
+    "stats": {
+      "trees": "Pledged Trees (Legacy)",
+      "projects": "Partner Projects",
+      "offset": "Green Vision"
+    }
+  },
+  "Hub": {
+    "title": "Holding Central Hub",
+    "welcome": "Welcome back, Leader",
+    "description": "Systematic management of all digital ventures and environmental impact.",
+    "projects": "Active Ventures",
+    "globalStats": "Global Ecosystem Metrics",
+    "agentStatus": "AI Team Status"
+  },
+  "Services": {
+    "title": "Digital Services; Business Growth, Nature Revival",
+    "subtitle": "In challenging economic times, we support you with realistic pricing to modernize your business while contributing to a greener future.",
+    "webDesign": {
+      "title": "Starter (Landing Page)",
+      "desc": "Fast, modern design to kickstart your online presence.",
+      "price": "2 Saplings"
+    },
+    "consulting": {
+      "title": "AI & Digital Transformation",
+      "desc": "Process optimization with AI to reduce your operational costs.",
+      "price": "6 Saplings"
+    },
+    "appDev": {
+      "title": "Pro E-Commerce & App",
+      "desc": "Comprehensive online sales system to expand your target market.",
+      "price": "12 Saplings"
+    },
+    "custom": {
+      "title": "Strategic Partner (Enterprise)",
+      "desc": "Infrastructure-level custom solutions for large organizations.",
+      "price": "From 25 Saplings"
+    },
+    "cta": "Reserve & Collaborate",
+    "phaseDisclaimer": "In the current phase (The Seed), revenue is directly invested into grove infrastructure, soil research, and land acquisition. Each pledged sapling is a unit of investment in a green future."
+  },
+  "Support": {
+    "title": "Direct Grove Support",
+    "subtitle": "If you don't need digital services but want to share in reviving nature, you can directly support the infrastructure phase.",
+    "options": {
+      "small": {
+        "title": "Seedling Supporter",
+        "price": "1/2 Sapling",
+        "desc": "Help with initial R&D"
+      },
+      "medium": {
+        "title": "Root Supporter",
+        "price": "1 Sapling",
+        "desc": "Provision of initial inputs"
+      },
+      "large": {
+        "title": "Palm Supporter",
+        "price": "5 Saplings",
+        "desc": "Land acquisition support"
+      }
+    },
+    "cta": "Pledge Support"
+  },
+  "Navigation": {
+    "services": "Services",
+    "impact": "Our Impact",
+    "about": "About Us",
+    "start": "Start Planting"
+  },
+  "Footer": {
+    "description": "Palm Grove Intelligent Holding; merging the art of software with the mission of reviving Iran's nature. We build so life can thrive.",
+    "explore": "Explore",
+    "services": "Our Services",
+    "connect": "Connect",
+    "newsletter": "Join the Green Newsletter",
+    "newsletterDesc": "Latest progress reports from the grove and new AI technologies.",
+    "placeholder": "Your email...",
+    "subscribe": "Subscribe",
+    "serviceList": [
+      "Web & App Development",
+      "AI Integration",
+      "Strategic Digital Consulting",
+      "E-Commerce Solutions"
+    ],
+    "rights": "All rights reserved for Palm Grove Holding. © 2026"
+  },
+  "Transparency": {
+    "badge": "Transparency & Vision",
+    "title": "Where Does Your Money Go?",
+    "description": "We are building more than just software. We are laying the groundwork for a social enterprise inspired by the <strong>Grameen Bank model</strong>. Your project funds the critical R&D phase for Iran's largest sustainable palm grove.",
+    "steps": {
+      "step1": {
+        "title": "Research & Location",
+        "desc": "Currently, revenue funds scientific research on palm species and identifying the optimal soil in southern Iran."
+      },
+      "step2": {
+        "title": "Land Acquisition",
+        "desc": "Securing land for the pilot grove, ensuring water sustainability and environmental compliance."
+      },
+      "step3": {
+        "title": "Planting Phase",
+        "desc": "Employing local communities to plant and nurture the first 10,000 saplings."
+      },
+      "step4": {
+        "title": "Organic Market",
+        "desc": "Selling premium organic dates and products, reinvesting profits into expanding the green belt."
+      }
+    },
+    "footer": {
+      "badge": "Social Entrepreneurship",
+      "title": "Empowering Communities",
+      "desc": "Our ultimate goal is to create sustainable employment in underprivileged regions. Like a social bank, but backed by nature. Every line of code written here helps plant a job opportunity there.",
+      "cta": "Join the Movement"
+    }
+  }
+}
